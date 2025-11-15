@@ -1,0 +1,66 @@
+{
+  "admins": [
+    { "id": 1, "username": "admin", "password": "admin123" }
+  ],
+  "categories": [
+    { "id": 1, "name": "All" },
+    { "id": 2, "name": "Injectable" },
+    { "id": 3, "name": "Surgical Range" },
+    { "id": 4, "name": "Medical Range" },
+    { "id": 5, "name": "Default" }
+  ],
+  "subcategories": [
+    { "id": 1, "categoryId": 2, "name": "A" },
+    { "id": 2, "categoryId": 2, "name": "B" },
+    { "id": 3, "categoryId": 3, "name": "General" }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "photo": "",
+      "name": "Company A",
+      "description": "Leading quality injectables.",
+      "categoryId": 2,
+      "subcategoryId": 1,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "photo": "",
+      "name": "Company B",
+      "description": "Trusted surgical supplies.",
+      "categoryId": 3,
+      "subcategoryId": 3,
+      "status": "active"
+    }
+  ],
+  "medicines": [
+    {
+      "id": 1,
+      "companyId": 1,
+      "photo": "",
+      "name": "Medicine X",
+      "subname": "Alpha",
+      "description": "For acute conditions.",
+      "mgo": "50mg",
+      "qty": "10 vials",
+      "sideeffects": "Nausea",
+      "usage": "IV only",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "companyId": 2,
+      "photo": "",
+      "name": "Scalpel Pro",
+      "subname": "",
+      "description": "High precision",
+      "mgo": "",
+      "qty": "1 unit",
+      "sideeffects": "",
+      "usage": "Surgical",
+      "status": "active"
+    }
+  ],
+  "messages": []
+}
